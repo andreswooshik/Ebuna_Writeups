@@ -29,6 +29,18 @@ Enter Roadmap
 
 > *andreralf25 completed another room on their cyber security journey.*
 
+### 🧠 W1seGuy — Completed!
+
+| Completed Tasks | Points Earned | Streak |
+|:-:|:-:|:-:|
+| 2 | 60 | 1 |
+
+> *andreralf25 completed another room on their cyber security journey.*
+
+## Writeups
+
+- [W1seGuy — TryHackMe Cryptography Room](TryHackMe/W1seGuy.md)
+
 ## Days
 
 ### Day 1
