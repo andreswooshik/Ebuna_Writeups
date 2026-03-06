@@ -1,5 +1,3 @@
-
-
 Welcome to my write ups for Cyber Security CRYPTOGRAPHY
 
 ## Roadmap
@@ -19,6 +17,17 @@ Enter Roadmap
 
 - [cryptohack.org](https://cryptohack.org)
 - picoctf
+- [TryHackMe](https://tryhackme.com)
+
+## Achievements
+
+### 🔐 Cryptography Basics — Completed!
+
+| Completed Tasks | Points Earned | Streak |
+|:-:|:-:|:-:|
+| 7 | 72 | 1 |
+
+> *andreralf25 completed another room on their cyber security journey.*
 
 ## Days
 
