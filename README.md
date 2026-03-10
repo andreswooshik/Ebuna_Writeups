@@ -37,9 +37,18 @@ Enter Roadmap
 
 > *andreralf25 completed another room on their cyber security journey.*
 
+### 🔑 You Either Know, XOR You Don't — Completed!
+
+| Completed Tasks | Points Earned | Streak |
+|:-:|:-:|:-:|
+| 1 | 30 | 1 |
+
+> *andreralf25 completed another challenge on their cyber security journey.*
+
 ## Writeups
 
 - [W1seGuy — TryHackMe Cryptography Room](TryHackMe/W1seGuy.md)
+- [You Either Know, XOR You Don't — CryptoHack Introduction](CryptoHack/You_Either_Know_XOR_You_Dont.md)
 
 ## Days
 
