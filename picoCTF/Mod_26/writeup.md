@@ -94,3 +94,6 @@ picoCTF{next_time_I'll_try_2_rounds_of_rot13_45559abd}
 ```
 picoCTF{next_time_I'll_try_2_rounds_of_rot13_45559abd}
 ```
+---
+
+[← Previous: The Numbers](../The_Numbers/writeup.md) | [🏠 Home](../../README.md) | [→ Next: 13](../13/writeup.md)

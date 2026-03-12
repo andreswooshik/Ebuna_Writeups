@@ -149,3 +149,6 @@ PICOCTF{THENUMBERSMASON}
 ```
 PICOCTF{THENUMBERSMASON}
 ```
+---
+
+[🏠 Home](../../README.md) | [→ Next: Mod 26](../Mod_26/writeup.md)
