@@ -13,13 +13,13 @@
 | # | Challenge | Category | Difficulty | Writeup |
 |---|-----------|----------|------------|---------|
 | 1 | You Either Know, XOR You Don't | XOR / KPA | 🟢 Easy | [→ Read](You_Either_Know_XOR_You_Dont.md) |
-| 2 | Great Snakes | Python Basics | 🟢 Easy | ⬜ Planned |
-| 3 | ASCII | Encoding | 🟢 Easy | ⬜ Planned |
-| 4 | HEX | Encoding | 🟢 Easy | ⬜ Planned |
-| 5 | Base64 | Encoding | 🟢 Easy | ⬜ Planned |
-| 6 | Bytes and Big Integers | Encoding | 🟢 Easy | ⬜ Planned |
-| 7 | XOR Starter | XOR | 🟢 Easy | ⬜ Planned |
-| 8 | XOR Properties | XOR | 🟢 Easy | ⬜ Planned |
+| 2 | Great Snakes | Python Basics | 🟢 Easy | [✅ Done](Great_Snakes.md) |
+| 3 | ASCII | Encoding | 🟢 Easy | [✅ Done](ASCII.md) |
+| 4 | HEX | Encoding | 🟢 Easy | [✅ Done](HEX.md) |
+| 5 | Base64 | Encoding | 🟢 Easy | [✅ Done](Base64.md) |
+| 6 | Bytes and Big Integers | Encoding | 🟢 Easy | [✅ Done](Bytes_and_Big_Integers.md) |
+| 7 | XOR Starter | XOR | 🟢 Easy | [✅ Done](XOR_Starter.md) |
+| 8 | XOR Properties | XOR | 🟢 Easy | [✅ Done](XOR_Chain.md) |
 | 9 | Favourite Byte | XOR | 🟢 Easy | ⬜ Planned |
 | 10 | You Either Know, XOR You Don't | XOR / KPA | 🟢 Easy | ✅ Done |
 
