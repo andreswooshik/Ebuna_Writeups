@@ -1,66 +1,176 @@
-Welcome to my write ups for Cyber Security CRYPTOGRAPHY
+# 🔐 Ebuna CTF Writeups
 
-## Roadmap
+> *A personal cryptography learning journal — documenting solutions, breaking down concepts, and building intuition for real-world security.*
 
-Enter Roadmap
+[![Platforms](https://img.shields.io/badge/Platforms-CryptoHack%20%7C%20TryHackMe%20%7C%20picoCTF-blue?style=flat-square)](https://cryptohack.org)
+[![Language](https://img.shields.io/badge/Language-Python%203-yellow?style=flat-square&logo=python)](https://python.org)
+[![Tools](https://img.shields.io/badge/Tools-CyberChef%20%7C%20pwntools%20%7C%20PyCryptodome-green?style=flat-square)](https://gchq.github.io/CyberChef/)
 
-| Track | Estimated Time |
-|-------|----------------|
-| Introduction | 1 day |
-| Modular Arithmetic | 5–6 days |
-| Symmetric Crypto | 3 days |
-| Public-Key Crypto | 4 days |
-| Elliptic Curves | 6–7 days |
-| **Total** | **~3 Weeks (2–3 hrs/day)** |
+---
 
-## Sources
+## 📖 About This Repository
 
-- [cryptohack.org](https://cryptohack.org)
-- picoctf
-- [TryHackMe](https://tryhackme.com)
+This repository contains personal writeups for cryptography challenges across multiple CTF platforms. Each writeup goes beyond just the solution — it breaks down the underlying math, explains *why* the vulnerability exists, and connects concepts to real-world security.
 
-## Achievements
+**Author:** andreralf25 | **Started:** 2026
 
-### 🔐 Cryptography Basics — Completed!
+---
+
+## 📊 Progress Tracker
+
+### 🔓 CryptoHack
+
+| Track | Progress | Status |
+|-------|----------|--------|
+| Introduction | `█░░░░░░░░░` 1/10 | 🟡 In Progress |
+| Modular Arithmetic | `░░░░░░░░░░` 0/10 | ⬜ Planned |
+| Symmetric Cryptography | `░░░░░░░░░░` 0/11 | ⬜ Planned |
+| Public-Key Cryptography | `░░░░░░░░░░` 0/14 | ⬜ Planned |
+| Elliptic Curves | `░░░░░░░░░░` 0/18 | ⬜ Planned |
+
+### 🧠 TryHackMe
+
+| Room | Status | Points |
+|------|--------|--------|
+| Cryptography Basics | ✅ Completed | 72 pts |
+| W1seGuy | ✅ Completed | 60 pts |
+
+### 🏆 picoCTF
+
+| Challenge | Year | Status |
+|-----------|------|--------|
+| The Numbers | 2019 | ✅ Completed |
+| 13 (ROT13) | 2019 | ✅ Completed |
+| Mod 26 | 2021 | ✅ Completed |
+| EVEN RSA CAN BE BROKEN | 2025 | ✅ Completed |
+
+---
+
+## 🗂️ Quick Navigation
+
+### 🔓 CryptoHack Writeups
+→ [CryptoHack Overview & Challenge Map](CryptoHack/README.md)
+
+| # | Challenge | Category | Difficulty |
+|---|-----------|----------|-----------|
+| 1 | [You Either Know, XOR You Don't](CryptoHack/You_Either_Know_XOR_You_Dont.md) | XOR / Known-Plaintext | 🟢 Easy |
+
+### 🧠 TryHackMe Writeups
+
+| Room | Topics | Difficulty |
+|------|--------|------------|
+| [W1seGuy](TryHackMe/W1seGuy.md) | Caesar Cipher, XOR Known-Plaintext | 🟢 Easy |
+
+### 🏆 picoCTF Writeups
+
+| Challenge | Topic | Year |
+|-----------|-------|------|
+| [The Numbers](picoCTF/The_Numbers/writeup.md) | A1Z26 Cipher | 2019 |
+| [13](picoCTF/13/writeup.md) | ROT13 | 2019 |
+| [Mod 26](picoCTF/Mod_26/writeup.md) | ROT13 / Modular Arithmetic | 2021 |
+| [EVEN RSA CAN BE BROKEN](picoCTF/EVEN_RSA_CAN_BE_BROKEN/writeup.md) | RSA Factoring | 2025 |
+
+---
+
+## 🎓 Recommended Learning Path
+
+```
+Beginner ─────────────────────────────────────────────────────►
+│
+├─ 1. picoCTF: The Numbers        (A1Z26 — no coding needed)
+├─ 2. picoCTF: Mod 26             (ROT13 — CyberChef)
+├─ 3. picoCTF: 13                 (ROT13 — CyberChef)
+├─ 4. TryHackMe: W1seGuy Task 1   (Caesar Cipher brute force)
+├─ 5. TryHackMe: W1seGuy Task 2   (XOR known-plaintext attack)
+└─ 6. CryptoHack: XOR You Don't   (XOR KPA + key recovery)
+
+Intermediate ─────────────────────────────────────────────────►
+│
+├─ 7. CryptoHack: Modular Arithmetic track
+└─ 8. picoCTF: EVEN RSA CAN BE BROKEN (RSA factoring)
+```
+
+---
+
+## 🛠️ Skills Covered
+
+| Skill | Challenges |
+|-------|-----------|
+| ROT13 / Caesar Cipher | picoCTF 13, Mod 26, W1seGuy Task 1 |
+| XOR Cipher | W1seGuy Task 2, CryptoHack XOR |
+| Known-Plaintext Attack | W1seGuy Task 2, CryptoHack XOR |
+| A1Z26 Encoding | picoCTF The Numbers |
+| RSA Basics | picoCTF EVEN RSA |
+| Python Scripting | W1seGuy, CryptoHack XOR, EVEN RSA, The Numbers |
+| CyberChef | picoCTF Mod 26, picoCTF 13 |
+
+---
+
+## 🏆 Achievements
+
+<details>
+<summary><b>🔐 Cryptography Basics — TryHackMe (72 pts)</b></summary>
 
 | Completed Tasks | Points Earned | Streak |
 |:-:|:-:|:-:|
 | 7 | 72 | 1 |
 
 > *andreralf25 completed another room on their cyber security journey.*
+</details>
 
-### 🧠 W1seGuy — Completed!
+<details>
+<summary><b>🧠 W1seGuy — TryHackMe (60 pts)</b></summary>
 
 | Completed Tasks | Points Earned | Streak |
 |:-:|:-:|:-:|
 | 2 | 60 | 1 |
 
 > *andreralf25 completed another room on their cyber security journey.*
+</details>
 
-### 🔑 You Either Know, XOR You Don't — Completed!
+<details>
+<summary><b>🔑 You Either Know, XOR You Don't — CryptoHack (30 pts)</b></summary>
 
 | Completed Tasks | Points Earned | Streak |
 |:-:|:-:|:-:|
 | 1 | 30 | 1 |
 
 > *andreralf25 completed another challenge on their cyber security journey.*
+</details>
 
-## Writeups
+---
 
-- [W1seGuy — TryHackMe Cryptography Room](TryHackMe/W1seGuy.md)
-- [You Either Know, XOR You Don't — CryptoHack Introduction](CryptoHack/You_Either_Know_XOR_You_Dont.md)
+## 🗺️ 3-Week Roadmap
 
-## Days
+| Week | Track | Time | Topics |
+|------|-------|------|--------|
+| 1 | Introduction + Modular Arithmetic | ~6 days | Encoding, XOR, modular inverse |
+| 2 | Symmetric Cryptography | ~3 days | AES, block ciphers, padding oracles |
+| 3 | Public-Key + Elliptic Curves | ~10 days | RSA, Diffie-Hellman, ECDH, ECDSA |
+| — | **Total** | **~3 Weeks (2–3 hrs/day)** | — |
 
-### Day 1
+---
 
-#### Contents
+## 🔗 Platforms
 
-- **ALL CHALLENGES DONE** ✓
-- [Go To Challenges](#challenges)
+| Platform | Link | Description |
+|----------|------|-------------|
+| CryptoHack | [cryptohack.org](https://cryptohack.org) | Structured crypto learning with free challenges |
+| TryHackMe | [tryhackme.com](https://tryhackme.com) | Guided rooms with beginner-friendly paths |
+| picoCTF | [picoctf.org](https://picoctf.org) | Archive of real CTF challenges, great for beginners |
 
-#### Tools Used
+---
 
-- Python 3
-- CyberChef
-- Custom implementations
+## 🤝 Contributing
+
+Want to suggest improvements or spot an error? See [CryptoHack/CONTRIBUTING.md](CryptoHack/CONTRIBUTING.md) for guidelines.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Python 3** — primary scripting language
+- **CyberChef** — quick encoding/decoding in the browser
+- **pwntools** — CTF scripting framework
+- **PyCryptodome** — cryptographic primitives (`pip install pycryptodome`)
+- **netcat** — server interaction (`nc`)

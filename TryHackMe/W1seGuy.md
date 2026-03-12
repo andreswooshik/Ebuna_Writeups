@@ -122,4 +122,19 @@ Running the script against the live server yielded both flags. Flag 2 was return
 
 ---
 
+## 🧪 Practice Variations
+
+1. **Longer flag format**: What if the flag were `THM{...}` but 10 characters long? How many brute-force attempts for the remaining 6 key characters? (62⁶ ≈ 56 billion — you'd need a smarter approach.)
+2. **Unknown flag prefix**: How would you crack this if the flag format were unknown? (Frequency analysis on the decrypted text.)
+3. **CryptoHack**: [You Either Know, XOR You Don't](../CryptoHack/You_Either_Know_XOR_You_Dont.md) — the same known-plaintext XOR attack on CryptoHack.
+
+## 🌍 Real-World Applications
+
+- **TLS session keys**: If the same XOR keystream is reused (nonce reuse in stream ciphers), known-plaintext recovers the XOR of both plaintexts.
+- **Weak obfuscation**: Many simple "encryption" schemes in malware and IoT firmware use single-byte or short repeating XOR — trivially broken with this technique.
+
+---
+
+[🏠 Home](../README.md)
+
 *TryHackMe CTF Writeup — andreralf25 — 2026*

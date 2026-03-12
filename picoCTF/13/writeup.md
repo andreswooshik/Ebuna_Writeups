@@ -120,3 +120,6 @@ picoCTF{not_too_bad_of_a_problem}
 ```
 picoCTF{not_too_bad_of_a_problem}
 ```
+---
+
+[← Previous: Mod 26](../Mod_26/writeup.md) | [🏠 Home](../../README.md) | [→ Next: EVEN RSA](../EVEN_RSA_CAN_BE_BROKEN/writeup.md)

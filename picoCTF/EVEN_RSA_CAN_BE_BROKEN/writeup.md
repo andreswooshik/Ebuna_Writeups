@@ -226,3 +226,6 @@ picoCTF{tw0_1$_pr!m3993b4dd0}
 ```
 picoCTF{tw0_1$_pr!m3993b4dd0}
 ```
+---
+
+[← Previous: 13](../13/writeup.md) | [🏠 Home](../../README.md)
