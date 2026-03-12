@@ -186,6 +186,6 @@ crypto{1f_y0u_Kn0w_En0uGH_y0u_Kn0w_1t_4ll}
 
 ---
 
-[🏠 Home](../README.md) | [🔓 CryptoHack](README.md)
+[🏠 Home](../README.md) | [🔓 CryptoHack](README.md) | [Next Challenge →](Great_Snakes.md)
 
 *CryptoHack CTF Writeup — andreralf25 — 2026*

@@ -22,7 +22,7 @@ This repository contains personal writeups for cryptography challenges across mu
 
 | Track | Progress | Status |
 |-------|----------|--------|
-| Introduction | `█░░░░░░░░░` 1/10 | 🟡 In Progress |
+| Introduction | `██████████` 10/10 | ✅ Completed |
 | Modular Arithmetic | `░░░░░░░░░░` 0/10 | ⬜ Planned |
 | Symmetric Cryptography | `░░░░░░░░░░` 0/11 | ⬜ Planned |
 | Public-Key Cryptography | `░░░░░░░░░░` 0/14 | ⬜ Planned |
@@ -54,6 +54,13 @@ This repository contains personal writeups for cryptography challenges across mu
 | # | Challenge | Category | Difficulty |
 |---|-----------|----------|-----------|
 | 1 | [You Either Know, XOR You Don't](CryptoHack/You_Either_Know_XOR_You_Dont.md) | XOR / Known-Plaintext | 🟢 Easy |
+| 2 | [Great Snakes](CryptoHack/Great_Snakes.md) | Python Basics | 🟢 Easy |
+| 3 | [ASCII](CryptoHack/ASCII.md) | Encoding | 🟢 Easy |
+| 4 | [HEX](CryptoHack/HEX.md) | Encoding | 🟢 Easy |
+| 5 | [Base64](CryptoHack/Base64.md) | Encoding | 🟢 Easy |
+| 6 | [Bytes and Big Integers](CryptoHack/Bytes_and_Big_Integers.md) | Encoding | 🟢 Easy |
+| 7 | [XOR Starter](CryptoHack/XOR_Starter.md) | XOR | 🟢 Easy |
+| 8 | [XOR Properties](CryptoHack/XOR_Chain.md) | XOR | 🟢 Easy |
 
 ### 🧠 TryHackMe Writeups
 
